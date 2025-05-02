@@ -1,59 +1,45 @@
-# EvilisGlenioApp
+# Portfólio - Evilis Glenio 👨‍💻
+Landing Page moderna e responsiva criada com Angular e Tailwind CSS para apresentar meus projetos como desenvolvedor fullstack, com foco em backend (.NET) e frontend moderno (Angular, React).
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
 
-## Development server
+## 🚀 Tecnologias Utilizadas
+Angular (Framework Frontend)
 
-To start a local development server, run:
+Tailwind CSS (Estilização moderna e responsiva)
 
-```bash
-ng serve
-```
+TypeScript
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+HTML5
 
-## Code scaffolding
+CSS3
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Animações com IntersectionObserver
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📚 Estrutura da Página
+Hero Section: Apresentação com fundo gradiente moderno.
 
-```bash
-ng generate --help
-```
+Sobre Mim: Sessão animada com resumo da minha trajetória e skills.
 
-## Building
+Projetos: Cards interativos com imagem, tecnologias utilizadas e link para ver mais.
 
-To build the project run:
+## 💼 Projetos Destacados
+Nascente Financeiro: App fullstack para controle financeiro pessoal.
 
-```bash
-ng build
-```
+InfoPill: Plataforma de consulta rápida sobre medicamentos.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Vivenda Natureza: E-commerce de produtos naturais com integração Stripe.
 
-## Running unit tests
+## ✨ Funcionalidades
+Totalmente responsivo (desktop e mobile)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Animações suaves ao rolar a página
 
-```bash
-ng test
-```
+Cards uniformes e elegantes para cada projeto
 
-## Running end-to-end tests
+Dark Mode por padrão
 
-For end-to-end (e2e) testing, run:
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📝 Licença
+Este projeto está sob a licença MIT.
+Sinta-se livre para usar como base para seu próprio portfólio!
