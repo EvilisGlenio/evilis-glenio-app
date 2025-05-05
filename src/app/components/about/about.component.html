@@ -1,59 +1,69 @@
-<section id="sobre" class="min-h-screen flex items-center justify-center bg-gray-800 text-gray-200 px-6 py-12">
-  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16" #aboutSection>
-    <!-- Texto Sobre -->
-    <div class="md:w-1/2" >
-      <h2 class="text-4xl font-bold mb-6">Sobre Mim</h2>
-      <p class="text-gray-300 mb-4">
-        Olá! Eu sou Evilis, um desenvolvedor Fullstack com foco em Backend, apaixonado por criar soluções digitais modernas e eficientes. Tenho experiência com tecnologias atuais e sigo boas práticas de desenvolvimento para entregar código limpo e de qualidade.
+<section class="w-full py-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white px-6">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-start">
+    
+    <!-- Coluna: Sobre mim -->
+    <div>
+      <h2 class="text-4xl font-bold mb-6">Quem sou eu</h2>
+      <p class="text-gray-300 leading-relaxed mb-4">
+        Sou Evilis Glenio, desenvolvedor Fullstack com foco em backend e experiência construindo soluções para web.
       </p>
-      <p class="text-gray-300">
-        Ao longo da minha jornada, participei de projetos que vão desde e-commerces até sistemas financeiros, sempre buscando evoluir tecnicamente e contribuir com soluções inteligentes para os desafios dos clientes.
+      <p class="text-gray-300 leading-relaxed mb-4">
+        Tenho paixão por código limpo, boas práticas e pela entrega de projetos que realmente ajudam pessoas. 
+        Trabalho com .NET no backend e Angular ou Next.js no frontend, sempre buscando evoluir e entregar resultados com qualidade.
+      </p>
+      <p class="text-gray-300 leading-relaxed">
+        Atualmente, busco desafios que me permitam crescer como desenvolvedor e colaborar com equipes que valorizem boas práticas de desenvolvimento.
       </p>
     </div>
 
-    <!-- Skills -->
-    <div class="md:w-1/2 grid grid-cols-1 gap-8">
-      <div>
-        <h3 class="text-2xl font-semibold mb-3">Backend</h3>
-        <div class="flex flex-wrap gap-3">
-          <span class="bg-[#512BD4]/20 text-[#512BD4] px-3 py-1 rounded-full text-sm">.NET</span>
-          <span class="bg-[#178600]/20 text-[#178600] px-3 py-1 rounded-full text-sm">C#</span>
-          <span class="bg-[#512BD4]/20 text-[#512BD4] px-3 py-1 rounded-full text-sm">ASP.NET</span>
-          <span class="bg-[#E44D26]/20 text-[#E44D26] px-3 py-1 rounded-full text-sm">APIs REST</span>
-          <span class="bg-[#85EA2D]/20 text-[#85EA2D] px-3 py-1 rounded-full text-sm">Swagger</span>
+    <!-- Coluna: Skills -->
+    <div>
+      <h2 class="text-4xl font-bold mb-6">Minhas Skills</h2>
+      
+      <div class="grid grid-cols-2 gap-4">
+        
+        <!-- Backend -->
+        <div>
+          <h3 class="text-2xl font-semibold mb-3 text-gray-200">Backend</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>.NET</li>
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>C#</li>
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>ASP.NET</li>
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>APIs REST</li>
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>Swagger</li>
+          </ul>
         </div>
+
+        <!-- Frontend -->
+        <div>
+          <h3 class="text-2xl font-semibold mb-3 text-gray-200">Frontend</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>Angular</li>
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>Next.js</li>
+          </ul>
+        </div>
+
+        <!-- Banco -->
+        <div>
+          <h3 class="text-2xl font-semibold mb-3 text-gray-200">Banco de Dados</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>MySQL</li>
+          </ul>
+        </div>
+
+        <!-- Outros -->
+        <div>
+          <h3 class="text-2xl font-semibold mb-3 text-gray-200">Outros</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>Domain Driven Design (DDD)</li>
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>Clean Code</li>
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>Responsividade</li>
+            <li class="flex items-center gap-2 hover:text-white transition"><span>🔹</span>Boas práticas</li>
+          </ul>
+        </div>
+
       </div>
 
-      <div>
-        <h3 class="text-2xl font-semibold mb-3">Frontend</h3>
-        <div class="flex flex-wrap gap-3">
-          <span class="bg-[#DD0031]/20 text-[#DD0031] px-3 py-1 rounded-full text-sm">Angular</span>
-          <span class="bg-[#000000]/20 text-[#000000] px-3 py-1 rounded-full text-sm">Next.js</span>
-          <span class="bg-[#38BDF8]/20 text-[#38BDF8] px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
-          <span class="bg-[#61DAFB]/20 text-[#61DAFB] px-3 py-1 rounded-full text-sm">React</span>
-        </div>
-      </div>
-
-      <div>
-        <h3 class="text-2xl font-semibold mb-3">Banco de Dados</h3>
-        <div class="flex flex-wrap gap-3">
-          <span class="bg-[#F29111]/20 text-[#F29111] px-3 py-1 rounded-full text-sm">SQL Server</span>
-          <span class="bg-[#4479A1]/20 text-[#4479A1] px-3 py-1 rounded-full text-sm">MySQL</span>
-        </div>
-      </div>
-
-      <div>
-        <h3 class="text-2xl font-semibold mb-3">Outros</h3>
-        <div class="flex flex-wrap gap-3">
-          <span class="bg-[#F05032]/20 text-[#F05032] px-3 py-1 rounded-full text-sm">Git</span>
-          <span class="bg-[#A259FF]/20 text-[#A259FF] px-3 py-1 rounded-full text-sm">Figma</span>
-          <span class="bg-[#6E4C13]/20 text-[#6E4C13] px-3 py-1 rounded-full text-sm">DDD</span>
-          <span class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm">Clean Code</span>
-          <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm">Responsividade</span>
-          <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Boas Práticas</span>
-        </div>
-      </div>
     </div>
   </div>
-  </section>
-  
+</section>
